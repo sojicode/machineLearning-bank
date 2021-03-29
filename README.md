@@ -17,8 +17,8 @@ Data: a modified subset of a real data set of customer for a bank: The data is p
 10. Perform a cross-tabulation of the region attribute with the pep attribute. This requires the aggregation of the occurrences.
 of each pep value (yes or no) separately for each value of the region attribute. Show the results as a 4 by 2 (region x pep) table with entries representing the counts. [Hint: you can either use Numpy or use aggregations functions in Pandas such as groupby() and cross-tab().] Then, either using Matplotlib directly or the plot() function in Pandas create a bar chart graph to visualize of the relationships between these sets of variables. 
 11. Now consider a modified version of the bank data that contains missing values (bank_data_missing_vals.csv). 
-> (a) Using Pandas determine all the attributes with missing values and the number of missing values for each such attribute. 
-> (b) Show all the instances in the data that contain a missing value. 
-> (c) Fill the missing values for all numeric attributes using the mean value for the attribute. 
-> (d) After filling in the missing numeric values, drop all rows where a categorical attribute contains a missing value. 
-> (e) Show that the final resulting table does not contain missing values.
+> * Using Pandas determine all the attributes with missing values and the number of missing values for each such attribute. 
+> * Show all the instances in the data that contain a missing value. 
+> * Fill the missing values for all numeric attributes using the mean value for the attribute. 
+> * After filling in the missing numeric values, drop all rows where a categorical attribute contains a missing value. 
+> * Show that the final resulting table does not contain missing values.
